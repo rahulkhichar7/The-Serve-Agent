@@ -1,0 +1,10 @@
+# Folders
+venv/
+env/
+vector_databases/
+__pycache__/
+data/
+
+# Files
+.env
+*.log

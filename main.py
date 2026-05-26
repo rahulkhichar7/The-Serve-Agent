@@ -25,6 +25,12 @@ llm = ChatGroq(
 )
 print(llm.invoke("Hi"))
 
+from langchain_openrouter import ChatOpenRouter
+model = ChatOpenRouter(
+    model="anthropic/claude-sonnet-4.6",
+    temperature=0.8,
+)
+
 
 #Graph State
 class State(TypedDict):
